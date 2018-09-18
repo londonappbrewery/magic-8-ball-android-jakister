@@ -5,7 +5,7 @@ android {
 
     defaultConfig {
         applicationId "com.londonappbrewery.magiceightball"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -20,6 +20,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:27.0.2'
+    implementation 'com.android.support:appcompat-v7:27.1.1' //had to update to v27.1.1 in order for AppcompatActivity to be found
     testImplementation 'junit:junit:4.12'
 }
